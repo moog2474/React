@@ -1,0 +1,181 @@
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+li {
+  font-size: 1rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  padding: 23px 57px 22px 41px;
+  
+}
+ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+/* Header */
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* section one */
+.hi .col-2{
+  text-align: start;
+}
+.hi h1{
+  font-size: 52px;
+  color: #D05270;
+  margin: 0;
+  margin-bottom: 12px;
+}
+.hi h3{
+  font-size: 52px;
+  font-weight: 500;
+}
+.hi .seventy{
+  width: 70%;
+}
+.pic{
+  display: flex;
+  justify-content: end;
+  width: 40%;
+}
+
+.hi {
+  width: 100%;
+ justify-content: space-between;
+}
+.text, h3{
+  margin: 0;
+}
+.text{
+  margin: 32px 0;
+}
+
+.one{
+ 
+  margin-top: 87px;
+ padding-bottom: 300px;
+}
+.one .col .seventy {
+  width: 60%;
+}
+
+.one .col .col-2 img {
+  width: 60%;
+}
+.twitter{
+  background-color: #47ACDF;
+}
+.linkedin{
+  background-color: #1275B1;
+}
+.medium{
+  background-color: #000000;
+}
+
+
+
+/* section 2 */
+.two nav {
+  justify-content: flex-start;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Card {
+  width: 45%;
+  margin-bottom: 65px;
+  text-align: start;
+  width: 590px;
+}
+
+.col-2 img {
+  width: 100%;
+}
+.Card a{
+  color: #D05270;
+  text-transform: uppercase;
+  font-size: 18px;
+  
+}
+.cat li a{
+  font-weight: 700;
+  font-size: 18px;
+}
+.cat li a:hover {
+  color: #D05270;
+  border-bottom: 2px solid #D05270;
+}
+.cat {
+  margin-bottom: 124px;
+}
+
